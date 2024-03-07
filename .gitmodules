@@ -1,4 +1,4 @@
-[submodule "cli_test"]
+[submodule "PI-signing-cli"]
 	path = PI-signing-cli
 	url = git@github.com:agh4m/PI-signing-cli.git
 [submodule "PI-SITE"]
