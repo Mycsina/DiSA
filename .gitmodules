@@ -1,6 +1,6 @@
 [submodule "cli_test"]
-	path = cli_test
-	url = ./cli_test
+	path = PI-signing-cli
+	url = ./git@github.com:agh4m/PI-signing-cli.git
 [submodule "PI-SITE"]
 	path = PI-SITE
-	url = ./PI-SITE
+	url = ./git@github.com:agh4m/PI-SITE.git
