@@ -1,0 +1,6 @@
+[submodule "cli_test"]
+	path = cli_test
+	url = ./cli_test
+[submodule "PI-SITE"]
+	path = PI-SITE
+	url = ./PI-SITE
