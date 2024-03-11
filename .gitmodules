@@ -7,3 +7,6 @@
 [submodule "archivematica-vagrant"]
 	path = archivematica-vagrant
 	url = https://github.com/Mycsina/archivematica-vagrant.git
+[submodule "DiSA-backend"]
+	path = DiSA-backend
+	url = https://github.com/Mycsina/DiSA-backend.git
