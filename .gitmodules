@@ -4,3 +4,6 @@
 [submodule "PI-SITE"]
 	path = PI-SITE
 	url = git@github.com:agh4m/PI-SITE.git
+[submodule "archivematica-vagrant"]
+	path = archivematica-vagrant
+	url = https://github.com/Mycsina/archivematica-vagrant.git
