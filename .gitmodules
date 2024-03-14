@@ -10,3 +10,6 @@
 [submodule "DiSA-backend"]
 	path = DiSA-backend
 	url = https://github.com/Mycsina/DiSA-backend.git
+[submodule "DiSA-webInterface"]
+	path = DiSA-webInterface
+	url = https://github.com/miguel-silva48/DiSA-webInterface
