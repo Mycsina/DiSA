@@ -1,15 +1,20 @@
+[submodule "DiSA-webInterface"]
+	path = DiSA-webInterface
+	url = git@github.com:miguel-silva48/DiSA-webInterface.git
+	branch = main
+[submodule "DiSA-backend"]
+	path = DiSA-backend
+	url = git@github.com:Mycsina/DiSA-backend.git
+	branch = master
 [submodule "PI-signing-cli"]
 	path = PI-signing-cli
 	url = git@github.com:agh4m/PI-signing-cli.git
+	branch = master
 [submodule "PI-SITE"]
 	path = PI-SITE
 	url = git@github.com:agh4m/PI-SITE.git
+	branch = master
 [submodule "archivematica-vagrant"]
 	path = archivematica-vagrant
-	url = https://github.com/Mycsina/archivematica-vagrant.git
-[submodule "DiSA-backend"]
-	path = DiSA-backend
-	url = https://github.com/Mycsina/DiSA-backend.git
-[submodule "DiSA-webInterface"]
-	path = DiSA-webInterface
-	url = https://github.com/miguel-silva48/DiSA-webInterface
+	url = git@github.com:Mycsina/archivematica-vagrant.git
+	branch = master
