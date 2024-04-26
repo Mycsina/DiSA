@@ -5,11 +5,11 @@ contract HashStorage {
   /**
    * @dev Prints Hello World string
    */
-  event hashStored(bytes32 originalHash);
+  event hashStored(bytes32 originalHash, uint16 nic);
 
   event certificateStored(bytes32 originalHash, bytes32 processedHash, uint256 url);
 
-  function storeHash(bytes32 originalHash) public {
+  function storeHash(bytes32 originalHash, uint16 nic) public {
     emit hashStored(originalHash);
   }
 

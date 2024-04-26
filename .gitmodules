@@ -14,7 +14,3 @@
 	path = PI-SITE
 	url = git@github.com:agh4m/PI-SITE.git
 	branch = master
-[submodule "archivematica-vagrant"]
-	path = archivematica-vagrant
-	url = git@github.com:Mycsina/archivematica-vagrant.git
-	branch = master
