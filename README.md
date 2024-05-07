@@ -1,5 +1,6 @@
-# PI
-Projeto de Informática idk
+# DiSA
+
+DiSA (Digitaly Signed Archive) is an arquival project that aims to prove authenticity of documents. It uses an external blockchain to store the hash of the files with timestamps, to verify the authenticity of the documents, and to provide a way to prove the existence of the documents at a certain time. Documents are stored in Paperless, a digital preservation system, after being digitally signed with Autenticação.Gov, a digital signature system from the Portuguese government. This project is made with the collaboration of the STIC and the Library of the University of Aveiro 
 
 ## How to use
 ```bash
