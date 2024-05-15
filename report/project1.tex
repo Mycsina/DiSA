@@ -228,8 +228,20 @@
     \subsection{Technologies}
         TODO
         
-    \subsubsection{Technology 1}
-        TODO
+    \subsubsection{Blockchain}
+        \paragraph{} At its base, a blockchain is a chain of transactions that aims to guarantee their authenticity via a mechanism of chained signatures.
+        
+        Whenever a new transaction occurs (regardless of whether or not tokens are exchanged), the owner must sign both the hash of the previous transaction and the recipient's (in this case, the smart contract's) public key and add it to the end of the transaction. \cite{bitcoin}
+        
+        Because of this, in order to alter a transaction that was already inserted in a blockchain, a malicious actor must gather not only the transaction owner's private key, but also the private keys from everyone that inserted a transaction before, which, in the case of public networks like Polygon (which had gained 15.24 million users just in 2023 alone \cite{polygonUserCount}), is virtually impossible.
+    
+        \paragraph{} As such, blockchains become the ideal mechanism for guaranteeing our document's validity, however, as blockchains become more secure the more popular they are (as well as the cost and difficulty of hosting one ourselves) we opted to deploy our smart contract\footnote{\textbf{Smart Contract}: objects that exist in the blockchain and that allow us to execute actions (like storing hashes) automatically} in the Polygon PoS blockchain. 
+        
+        For testing, despite initially intending to use a self-hosted blockchain (using Hardhat) for development and testing, we opted to use one of Polygon's testnets\footnote{\textbf{Testnet}: chain created specifically for testing and bridging where a user can request a small amount of tokens for free every day} instead, as the deployment process more closely mirrored the deployment on the mainnet.
+
+        \paragraph{} Finally, one consequence from using a blockchain is the need to pay gas fees every time we stored a hash. However, by storing the manifest's (which contains the names and hashes of every document) hash instead, we managed to cut down data costs to the point where, at the current rate, a single dollar is enough for approximately 2000 transactions.
+        
+        
     \subsubsection{Technology 2}
         TODO
     \subsubsection{Technology 3}
@@ -631,6 +643,5 @@
     \clearpage % New page
     \section{References}\label{sec:references}
         \printbibliography[heading=none]
-        TODO
         
 \end{document}
