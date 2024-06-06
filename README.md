@@ -44,5 +44,3 @@ Please use an ssh url, specially if the repo is private. Otherwise, you'll need 
 [Repo do site](https://github.com/agh4m/PI-SITE)
 
 [Site](https://agh4m.github.io/PI-SITE/)
-
-![](DiSA-backend.png)
